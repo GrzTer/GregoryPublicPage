@@ -4,6 +4,6 @@ title: Table of Contents
 # Table of Contents
 
 ```dataview
-where file.basename = "Index"
-group by file.folder
+list from "content"
+where file.name = "index.md"
 ```
