@@ -156,6 +156,7 @@ This document outlines the fundamental elements of Python syntax in a point-by-p
     
     - _For Loops:_  
         Iterate over sequences or ranges.
+        
         ```python
 	for i in range(5):
 		print(i)`
@@ -177,7 +178,10 @@ This document outlines the fundamental elements of Python syntax in a point-by-p
         
     
 ```python
-    `def greet(person):     """Return a greeting message."""     return f"Hello, {person}!" print(greet("Alice"))`
+	    def greet(person):
+			"""Return a greeting message."""
+			return f"Hello, {person}!"
+		print(greet("Alice"))`
 ```
 - **Docstrings:**
     
