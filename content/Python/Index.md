@@ -24,7 +24,7 @@ This document provides a structured overview of the Python notes repository. It 
 - [Introduction](#introduction)
 - [Overview & Key Features](#overview--key-features)
 - [Core Concepts](#core-concepts)
-  - [Basics & Syntax](#Basics-&Syntax)
+  - [Basics & Syntax](#basics--syntax)
   - [Data Structures](#data-structures)
   - [Control Structures](#control-structures)
   - [Functions & Modules](#functions--modules)
