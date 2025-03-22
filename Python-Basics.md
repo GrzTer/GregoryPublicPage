@@ -143,26 +143,28 @@ This document outlines the fundamental elements of Python syntax in a point-by-p
     
     - Use `if`, `elif`, and `else` to control code flow.
         
-    
-    python
-    
-    Kopiuj
-    
-    `if x > 0:     print("Positive") elif x == 0:     print("Zero") else:     print("Negative")`
+```python
+		`if x > 0:
+			print("Positive")
+		elif x == 0:
+			print("Zero")
+		else:
+			print("Negative")`
+```
     
 - **Loops:**
     
     - _For Loops:_  
         Iterate over sequences or ranges.
-        
-```python
-		`for i in range(5):     print(i)`
-```
+        ```python
+	for i in range(5):
+		print(i)`
+	```
     - _While Loops:_  
         Execute as long as a condition is true.
         
 ```python
-        `count = 0 while count < 5:     print(count)     count += 1`
+	`count = 0 while count < 5:     print(count)     count += 1`
 ```        
 
 ---
