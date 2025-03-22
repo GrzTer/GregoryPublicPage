@@ -131,7 +131,7 @@ This document outlines the fundamental elements of Python syntax in a point-by-p
         
 - **Assignment Operators:**
     
-    - Basic assignment: ``
+    - Basic assignment: `a = a`
         
     - Compound assignments: `+=`, `-=`, etc.
         
@@ -139,3 +139,81 @@ This document outlines the fundamental elements of Python syntax in a point-by-p
 ---
 
 ## 5. Control Structures
+- **Conditional Statements:**
+    
+    - Use `if`, `elif`, and `else` to control code flow.
+        
+    
+    python
+    
+    Kopiuj
+    
+    `if x > 0:     print("Positive") elif x == 0:     print("Zero") else:     print("Negative")`
+    
+- **Loops:**
+    
+    - _For Loops:_  
+        Iterate over sequences or ranges.
+        
+
+```python
+        `for i in range(5):     print(i)`
+        ```
+    - _While Loops:_  
+        Execute as long as a condition is true.
+        
+        python
+        
+        Kopiuj
+        
+        `count = 0 while count < 5:     print(count)     count += 1`
+        
+
+---
+
+## 6. Functions
+
+- **Defining Functions:**
+    
+    - Use the `def` keyword to create functions.
+        
+    
+```python
+    `def greet(person):     """Return a greeting message."""     return f"Hello, {person}!" print(greet("Alice"))`
+```
+- **Docstrings:**
+    
+    - Use triple quotes to document the function’s purpose, parameters, and return value.
+        
+
+---
+
+## 7. Modules and Imports
+
+- **Modules:**
+    
+    - Organize code into reusable modules.
+        
+- **Importing:**
+    
+    - Use `import` to include modules in your script.
+        
+    
+
+```python
+    `import math print(math.sqrt(16))  # Outputs: 4.0`
+```
+
+---
+
+## Conclusion
+
+- This document summarizes the basic syntax elements of Python.
+    
+- It serves as a reference for fundamental concepts such as the environment setup, comments, indentation, variables, string formatting, operators, control structures, functions, and module imports.
+    
+- Regular practice by writing small scripts is recommended to reinforce these concepts.
+    
+
+> [!tip] **Practice Tip:**  
+> Experiment with these concepts in a Python interpreter or script to build familiarity with the language.
