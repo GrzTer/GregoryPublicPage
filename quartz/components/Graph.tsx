@@ -16,9 +16,9 @@ export interface D3Config {
   linkDistance: number;
   fontSize: number;
   opacityScale: number;
-  removeTags: string[];
-  removeFiles: string[]; // New property for file filtering
-  showTags: boolean;
+  // Removed removeTags property since only file relations are used.
+  removeFiles: string[]; // Property used to filter files
+  showTags: boolean; // You may repurpose or remove this if no tag data is needed.
   focusOnHover?: boolean;
   enableRadial?: boolean;
 }
@@ -39,9 +39,9 @@ const defaultOptions: GraphOptions = {
     linkDistance: 30,
     fontSize: 0.6,
     opacityScale: 1,
-    showTags: true,
-    removeTags: [],
-    removeFiles: [], // Initialize file filter array
+    // Remove tag filtering: only file filtering remains.
+    removeFiles: [],
+    showTags: false, // Since relations are now file-based, tag display may be disabled.
     focusOnHover: false,
     enableRadial: false,
   },
@@ -55,9 +55,8 @@ const defaultOptions: GraphOptions = {
     linkDistance: 30,
     fontSize: 0.6,
     opacityScale: 1,
-    showTags: true,
-    removeTags: [],
-    removeFiles: [], // Initialize file filter array
+    removeFiles: [],
+    showTags: false,
     focusOnHover: true,
     enableRadial: true,
   },
@@ -70,7 +69,7 @@ export default ((opts?: Partial<GraphOptions>) => {
       JSON.stringify({ ...defaultOptions.localGraph, ...opts?.localGraph })
     );
 
-    // Update localGraph configuration and reinitialize graph when filterFile changes.
+    // Update configuration and reinitialize graph when the file filter changes.
     useEffect(() => {
       const newLocalGraph = {
         ...defaultOptions.localGraph,
@@ -78,14 +77,14 @@ export default ((opts?: Partial<GraphOptions>) => {
         removeFiles: filterFile ? [filterFile] : [],
       };
       setLocalGraphCfg(JSON.stringify(newLocalGraph));
-      // Re-run the D3 script to update the graph
+      // Call your D3 script to reinitialize or update the graph visualization.
       script();
     }, [filterFile]);
 
     return (
       <div class={classNames(displayClass, "graph")}>
         <h3>{i18n(cfg.locale).components.graph.title}</h3>
-        {/* File Filter UI */}
+        {/* File Filter UI: only one button is provided for file-based filtering */}
         <div class="graph-filter">
           <button
             class="filter-button"
