@@ -9,4 +9,4 @@ from "content"
 where contains(file.tags, "#index")
 
 ```
-Hll
+
