@@ -6,7 +6,6 @@ tags:
   - readme
   - GregoryPublicPage
 ---
-
 # GregoryPublicPage Project
 
 Welcome to the **GregoryPublicPage** project!
