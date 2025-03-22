@@ -17,6 +17,7 @@ export interface D3Config {
   fontSize: number;
   opacityScale: number;
   removeTags: string[];
+  removeFiles: string[];  // New property for file filtering
   showTags: boolean;
   focusOnHover?: boolean;
   enableRadial?: boolean;
@@ -40,6 +41,7 @@ const defaultOptions: GraphOptions = {
     opacityScale: 1,
     showTags: true,
     removeTags: [],
+    removeFiles: [],  // Initialize empty array
     focusOnHover: false,
     enableRadial: false,
   },
@@ -55,6 +57,7 @@ const defaultOptions: GraphOptions = {
     opacityScale: 1,
     showTags: true,
     removeTags: [],
+    removeFiles: [],  // Initialize empty array
     focusOnHover: true,
     enableRadial: true,
   },
@@ -62,29 +65,42 @@ const defaultOptions: GraphOptions = {
 
 export default ((opts?: Partial<GraphOptions>) => {
   const Graph: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
+    // Two separate state variables for filtering tags and files.
     const [filterTag, setFilterTag] = useState<string>("");
+    const [filterFile, setFilterFile] = useState<string>("");
 
-    // Merge filter into localGraph configuration:
+    // Merge filters into the localGraph configuration.
     const localGraph = {
       ...defaultOptions.localGraph,
       ...opts?.localGraph,
       removeTags: filterTag ? [filterTag] : [],
+      removeFiles: filterFile ? [filterFile] : [],
     };
     const globalGraph = { ...defaultOptions.globalGraph, ...opts?.globalGraph };
 
     return (
       <div class={classNames(displayClass, "graph")}>
         <h3>{i18n(cfg.locale).components.graph.title}</h3>
-        {/* Filter UI */}
+        {/* Two buttons for filtering */}
         <div class="graph-filter">
-          <label htmlFor="graph-filter-input">Filter Tags: </label>
-          <input
-            id="graph-filter-input"
-            type="text"
-            placeholder="Enter tag to filter out"
-            value={filterTag}
-            onInput={(e: any) => setFilterTag(e.target.value)}
-          />
+          <button
+            class="filter-button"
+            onClick={() => {
+              const value = prompt("Enter tag to filter out:");
+              setFilterTag(value || "");
+            }}
+          >
+            Filter Tags
+          </button>
+          <button
+            class="filter-button"
+            onClick={() => {
+              const value = prompt("Enter file to filter out:");
+              setFilterFile(value || "");
+            }}
+          >
+            Filter Files
+          </button>
         </div>
         <div class="graph-outer">
           <div class="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
