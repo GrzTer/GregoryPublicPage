@@ -111,9 +111,9 @@ This document outlines the fundamental elements of Python syntax in a point-by-p
 	print(a ** b) # Outputs: 1000
 
 ```
-**Comparison Operators:**
-
-	- Equal: '=='
+- **Comparison Operators:**
+    
+    - Equal: ` ==`
         
     - Not equal: `!=`
         
@@ -131,7 +131,7 @@ This document outlines the fundamental elements of Python syntax in a point-by-p
         
 - **Assignment Operators:**
     
-    - Basic assignment: `=`
+    - Basic assignment: ``
         
     - Compound assignments: `+=`, `-=`, etc.
         
