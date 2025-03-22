@@ -1,31 +1,29 @@
-import { useState } from "preact/hooks"; // or 'react/hooks' if using React
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types";
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 // @ts-ignore
-import script from "./scripts/graph.inline";
-import style from "./styles/graph.scss";
-import { i18n } from "../i18n";
-import { classNames } from "../util/lang";
+import script from "./scripts/graph.inline"
+import style from "./styles/graph.scss"
+import { i18n } from "../i18n"
+import { classNames } from "../util/lang"
 
 export interface D3Config {
-  drag: boolean;
-  zoom: boolean;
-  depth: number;
-  scale: number;
-  repelForce: number;
-  centerForce: number;
-  linkDistance: number;
-  fontSize: number;
-  opacityScale: number;
-  removeTags: string[];
-  removeFiles: string[];  // New property for file filtering
-  showTags: boolean;
-  focusOnHover?: boolean;
-  enableRadial?: boolean;
+  drag: boolean
+  zoom: boolean
+  depth: number
+  scale: number
+  repelForce: number
+  centerForce: number
+  linkDistance: number
+  fontSize: number
+  opacityScale: number
+  removeTags: string[]
+  showTags: boolean
+  focusOnHover?: boolean
+  enableRadial?: boolean
 }
 
 interface GraphOptions {
-  localGraph: Partial<D3Config> | undefined;
-  globalGraph: Partial<D3Config> | undefined;
+  localGraph: Partial<D3Config> | undefined
+  globalGraph: Partial<D3Config> | undefined
 }
 
 const defaultOptions: GraphOptions = {
@@ -41,7 +39,6 @@ const defaultOptions: GraphOptions = {
     opacityScale: 1,
     showTags: true,
     removeTags: [],
-    removeFiles: [],  // Initialize empty array
     focusOnHover: false,
     enableRadial: false,
   },
@@ -57,51 +54,18 @@ const defaultOptions: GraphOptions = {
     opacityScale: 1,
     showTags: true,
     removeTags: [],
-    removeFiles: [],  // Initialize empty array
     focusOnHover: true,
     enableRadial: true,
   },
-};
+}
 
 export default ((opts?: Partial<GraphOptions>) => {
   const Graph: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
-    // Two separate state variables for filtering tags and files.
-    const [filterTag, setFilterTag] = useState<string>("");
-    const [filterFile, setFilterFile] = useState<string>("");
-
-    // Merge filters into the localGraph configuration.
-    const localGraph = {
-      ...defaultOptions.localGraph,
-      ...opts?.localGraph,
-      removeTags: filterTag ? [filterTag] : [],
-      removeFiles: filterFile ? [filterFile] : [],
-    };
-    const globalGraph = { ...defaultOptions.globalGraph, ...opts?.globalGraph };
-
+    const localGraph = { ...defaultOptions.localGraph, ...opts?.localGraph }
+    const globalGraph = { ...defaultOptions.globalGraph, ...opts?.globalGraph }
     return (
       <div class={classNames(displayClass, "graph")}>
         <h3>{i18n(cfg.locale).components.graph.title}</h3>
-        {/* Two buttons for filtering */}
-        <div class="graph-filter">
-          <button
-            class="filter-button"
-            onClick={() => {
-              const value = prompt("Enter tag to filter out:");
-              setFilterTag(value || "");
-            }}
-          >
-            Filter Tags
-          </button>
-          <button
-            class="filter-button"
-            onClick={() => {
-              const value = prompt("Enter file to filter out:");
-              setFilterFile(value || "");
-            }}
-          >
-            Filter Files
-          </button>
-        </div>
         <div class="graph-outer">
           <div class="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
           <button class="global-graph-icon" aria-label="Global Graph">
@@ -135,11 +99,11 @@ export default ((opts?: Partial<GraphOptions>) => {
           <div class="global-graph-container" data-cfg={JSON.stringify(globalGraph)}></div>
         </div>
       </div>
-    );
-  };
+    )
+  }
 
-  Graph.css = style;
-  Graph.afterDOMLoaded = script;
+  Graph.css = style
+  Graph.afterDOMLoaded = script
 
-  return Graph;
-}) satisfies QuartzComponentConstructor;
+  return Graph
+}) satisfies QuartzComponentConstructor
