@@ -155,19 +155,15 @@ This document outlines the fundamental elements of Python syntax in a point-by-p
     - _For Loops:_  
         Iterate over sequences or ranges.
         
-
 ```python
-        `for i in range(5):     print(i)`
-        ```
+		`for i in range(5):     print(i)`
+```
     - _While Loops:_  
         Execute as long as a condition is true.
         
-        python
-        
-        Kopiuj
-        
+```python
         `count = 0 while count < 5:     print(count)     count += 1`
-        
+```        
 
 ---
 
