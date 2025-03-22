@@ -80,3 +80,57 @@ This document outlines the fundamental elements of Python syntax in a point-by-p
 ```python
     `greeting = f"Hello, {name}!"
 ```
+
+---
+
+## 4. Operators
+
+- **Arithmetic Operators:**
+    
+    - Addition: `+`
+        
+    - Subtraction: `-`
+        
+    - Multiplication: `*`
+        
+    - Division: `/`
+        
+    - Floor Division: `//`
+        
+    - Modulus: `%`
+        
+    - Exponentiation: `**`
+        
+    
+    ```
+```python
+    `a = 10 b = 3 print(a + b)  # Outputs: 13 print(a / b)  # Outputs: 3.333... print(a // b) # Outputs: 3 print(a % b)  # Outputs: 1 print(a ** b) # Outputs: 1000`
+    
+- **Comparison Operators:**
+    
+    - Equal: `==`
+        
+    - Not equal: `!=`
+        
+    - Less than: `<`
+        
+    - Greater than: `>`
+        
+    - Less than or equal: `<=`
+        
+    - Greater than or equal: `>=`
+        
+- **Logical Operators:**
+    
+    - `and`, `or`, `not`
+        
+- **Assignment Operators:**
+    
+    - Basic assignment: `=`
+        
+    - Compound assignments: `+=`, `-=`, etc.
+        
+
+---
+
+## 5. Control Structures
