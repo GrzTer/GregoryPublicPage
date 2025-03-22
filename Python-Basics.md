@@ -67,18 +67,18 @@ This document outlines the fundamental elements of Python syntax in a point-by-p
 - **Concatenation:**  
   Use the `+` operator to join strings.
 ```python
-  greeting = "Hello, " + name
+	greeting = "Hello, " + name
 ```
 - **`str.format()` Method:**  
     Insert variables into strings using placeholders.
 ```python
-    `greeting = "Hello, {}!".format(name)`
+    greeting = "Hello, {}!".format(name)`
     ```
 - **F-Strings (Python 3.6+):**  
     Embed expressions directly in string literals.
     
 ```python
-    `greeting = f"Hello, {name}!"
+    greeting = f"Hello, {name}!"
 ```
 
 ---
@@ -144,12 +144,12 @@ This document outlines the fundamental elements of Python syntax in a point-by-p
     - Use `if`, `elif`, and `else` to control code flow.
         
 ```python
-		`if x > 0:
-			print("Positive")
-		elif x == 0:
-			print("Zero")
-		else:
-			print("Negative")`
+	if x > 0:
+		print("Positive")
+	elif x == 0:
+		print("Zero")
+	else:
+		print("Negative")`
 ```
     
 - **Loops:**
@@ -165,7 +165,10 @@ This document outlines the fundamental elements of Python syntax in a point-by-p
         Execute as long as a condition is true.
         
 ```python
-	`count = 0 while count < 5:     print(count)     count += 1`
+	count = 0
+	while count < 5:
+		print(count)
+		count += 1`
 ```        
 
 ---
@@ -203,19 +206,11 @@ This document outlines the fundamental elements of Python syntax in a point-by-p
     
 
 ```python
-    `import math print(math.sqrt(16))  # Outputs: 4.0`
+    import math
+	print(math.sqrt(16))  # Outputs: 4.0`
 ```
 
 ---
-
-## Conclusion
-
-- This document summarizes the basic syntax elements of Python.
-    
-- It serves as a reference for fundamental concepts such as the environment setup, comments, indentation, variables, string formatting, operators, control structures, functions, and module imports.
-    
-- Regular practice by writing small scripts is recommended to reinforce these concepts.
-    
 
 > [!tip] **Practice Tip:**  
 > Experiment with these concepts in a Python interpreter or script to build familiarity with the language.
