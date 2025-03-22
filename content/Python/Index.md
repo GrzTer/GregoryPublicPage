@@ -8,10 +8,10 @@ longform:
   ignoredFiles: []
 tags:
   - index
+  - python
+  - programming
 ---
 ---
----
-
 # Python Programming
 
 Python is a **powerful**, **high-level**, **interpreted** programming language known for its **readability** and **versatility**. It has become one of the most popular languages for **web development**, **data analysis**, **machine learning**, **automation**, and more.
