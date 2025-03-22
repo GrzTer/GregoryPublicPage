@@ -101,14 +101,19 @@ This document outlines the fundamental elements of Python syntax in a point-by-p
         
     - Exponentiation: `**`
         
-    
-    ```
 ```python
-    `a = 10 b = 3 print(a + b)  # Outputs: 13 print(a / b)  # Outputs: 3.333... print(a // b) # Outputs: 3 print(a % b)  # Outputs: 1 print(a ** b) # Outputs: 1000`
-    
-- **Comparison Operators:**
-    
-    - Equal: `==`
+    a = 10
+	b = 3
+	print(a + b)  # Outputs: 13
+	print(a / b)  # Outputs: 3.333...
+	print(a // b) # Outputs: 3
+	print(a % b)  # Outputs: 1
+	print(a ** b) # Outputs: 1000
+
+```
+**Comparison Operators:**
+
+	- Equal: '=='
         
     - Not equal: `!=`
         
