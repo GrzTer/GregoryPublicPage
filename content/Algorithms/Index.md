@@ -19,4 +19,4 @@ This document provides a structured overview of the **Algorithms** notes reposit
 ## Introduction
 
 Definition of "ALGORITHM":
- - finite sequence of rules 
+ - finite sequence of rules, which applies on finite number of data, which allows to solve similar   
