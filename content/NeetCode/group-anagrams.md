@@ -80,5 +80,6 @@ class Solution(object):
 1.  Initialize a`defaultdict(list)` using `collections` module.
 2. Use `For` loop to take out each `string` from `strs`.
 	- Save into a `k` key using `tuple(sorted(string))`
-	- Append each string at the `k` position in dictionary, 
-	> Using  `defaultdict(list)` is so helpful here, because I do not need key created beforehand, also it sorted 
+	- Append each string at the `k` position in dictionary,
+- return values of an anagram dictionary, nested list
+	> Using  `defaultdict(list)` is so helpful here, because I do not need key created beforehand, also it sorted into different lists in dict, by default (`key`) 
