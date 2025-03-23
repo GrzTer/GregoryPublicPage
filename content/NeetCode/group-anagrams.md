@@ -69,4 +69,6 @@ class Solution(object):
 	3. Append string in solo list if there is none / Append string in multi list if there is multiple instances of said string
 4. Return list %%
 
-- Initialize 
+- Initialize a`defaultdict(list)` using `collections` module.
+- Use `For` loop to take out each `string` from `strs`.
+	- Save into a `k` key
