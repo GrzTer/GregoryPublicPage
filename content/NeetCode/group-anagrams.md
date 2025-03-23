@@ -61,4 +61,6 @@ class Solution(object):
 
 ```
 
-1. 
+1. First of all I need to initialize a list that will contain a solution
+2. Make a `For` loop that will select each element of this list.
+3. 
