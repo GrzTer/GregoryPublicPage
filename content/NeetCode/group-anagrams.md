@@ -60,11 +60,13 @@ class Solution(object):
 ```python
 
 ```
-
+%% 
 1. First of all I need to initialize a list that will contain a solution
 2. Sort all elements of `strs`
 3. Make a `For` loop that will select each index of this list.
 	1. Sort each `string` i
 	2. With`For` loop check if an `string` i is similar to any other object using === 
 	3. Append string in solo list if there is none / Append string in multi list if there is multiple instances of said string
-4. Return list
+4. Return list %%
+
+- Initialize 
