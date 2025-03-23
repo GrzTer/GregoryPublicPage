@@ -40,4 +40,5 @@ Issues:
 This coffee recipe have a characteristics of an algorithm (rozumnego) but does not contain a precision needed for inputting it into a machine, so it could work under any circumstances e.g.: ("Prepare me a small coffee", How to define a condition that a coffee is "brewed properly"?)
 
 > Every algorithm:
-> - Have a input data with amount greater or equal zero)
+> - Have a input data (with amount greater or equal zero) coming from finely defined set (e.g. Euklides algorithm operates on two numbers całkowitych);
+> - Produce a result ()
