@@ -20,4 +20,7 @@ This document provides a structured overview of the **Algorithms** notes reposit
 
 Definition of "ALGORITHM":
  - Finite sequence of rules, which applies on finite number of data, which allows to solve similar to themselves classes of problems.
- - A set of rules characteristic of certain
+ - A set of rules characteristic of certain computations or computer operations.
+
+---
+
