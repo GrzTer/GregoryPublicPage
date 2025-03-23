@@ -9,6 +9,6 @@ tags:
 ```python
 def NWD(a,b):
 	while a> 0:
-		c, b, a = a % b, a, c
-		
-```
+		c, b, a, res = a % b, a, c, b
+	return res		
+``` 
