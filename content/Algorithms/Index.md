@@ -24,3 +24,4 @@ Definition of "ALGORITHM":
 
 ---
 
+Euklides
