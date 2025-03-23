@@ -41,4 +41,5 @@ This coffee recipe have a characteristics of an algorithm (rozumnego) but does n
 
 > Every algorithm:
 > - Have a input data (with amount greater or equal zero) coming from finely defined set (e.g. Euklides algorithm operates on two numbers całkowitych);
-> - Produce a result ()
+> - Produce a result (Not specifically numerical)
+> - Is precisely defined (every step of algorithm must be jednoznacznie określony)
