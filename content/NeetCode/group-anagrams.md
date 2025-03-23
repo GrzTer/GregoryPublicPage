@@ -62,5 +62,6 @@ class Solution(object):
 ```
 
 1. First of all I need to initialize a list that will contain a solution
-2. Make a `For` loop that will select each element of this list.
-3. 
+2. Sort all elements of `strs`
+3. Make a `For` loop that will select each element of this list.
+	1. Each `i` sort and 
