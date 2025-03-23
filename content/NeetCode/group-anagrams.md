@@ -66,5 +66,5 @@ class Solution(object):
 3. Make a `For` loop that will select each index of this list.
 	1. Sort each `string` i
 	2. With`For` loop check if an `string` i is similar to any other object using === 
-	3. Append string in format 
+	3. Append string in solo list if there is none / Append string in multi list if there is multiple instances of said string
 4. Return list
