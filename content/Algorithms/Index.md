@@ -39,8 +39,9 @@ Issues:
 - What it mean for "sugar it for taste"?
 This coffee recipe have a characteristics of an algorithm (rozumnego) but does not contain a precision needed for inputting it into a machine, so it could work under any circumstances e.g.: ("Prepare me a small coffee", How to define a condition that a coffee is "brewed properly"?)
 
->Every algorithm:
-> - Takes input data (with a quantity greater than or equal to zero) from a well-defined set (e.g., the Euclidean algorithm operates on two integers).
-> - Produces a result (not necessarily numerical).
-> - Is precisely defined (each step of the algorithm must be clearly specified).
->   Is Finite (result of algorithm must be "kiedyś" dostarczony mając algorytm A i dane wejściowe D powinno )
+> Every algorithm:
+> 
+> - Accepts input data, which is a non-negative quantity, from a well-defined set (e.g., the Euclidean algorithm operates on two integers).
+> - Produces a result, which may not necessarily be numerical.
+> - Is precisely defined, with each step of the algorithm clearly specified.
+> - Is Finite: The result of the algorithm must eventually be delivered. Given algorithm A and input data D, it should be possible to precisely determine the execution time T(A)
