@@ -64,4 +64,5 @@ class Solution(object):
 1. First of all I need to initialize a list that will contain a solution
 2. Sort all elements of `strs`
 3. Make a `For` loop that will select each index of this list.
-	1. Sort each `string` and
+	1. Sort each `string` i
+	2. With`For` loop check if an `string` i is similar to any othe
