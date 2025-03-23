@@ -7,8 +7,11 @@ tags:
   - Euklides
 ---
 ```python
-def NWD(a,b):
-	while a> 0:
-		c, b, a, res = a % b, a, c, b
-	return res		
+def NWD(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+print(NWD(10, 2))  # This will output 2
+	
 ``` 
