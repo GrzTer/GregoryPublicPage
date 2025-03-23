@@ -24,4 +24,4 @@ Definition of "ALGORITHM":
 
 ---
 
-Euklides
+[[NWD]] - Euklides
