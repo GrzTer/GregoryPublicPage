@@ -18,3 +18,5 @@ This document provides a structured overview of the **Algorithms** notes reposit
 
 ## Introduction
 
+Definition of "ALGORITHM":
+ - finite sequence of rules 
