@@ -19,8 +19,8 @@ This document provides a structured overview of the **Algorithms** notes reposit
 ## Introduction
 
 Definition of "ALGORITHM":
- - Finite sequence of rules, which applies on finite number of data, which allows to solve similar to themselves classes of problems.
- - A set of rules characteristic of certain computations or computer operations.
+>  - Finite sequence of rules, which applies on finite number of data, which allows to solve similar to themselves classes of problems.
+ > - A set of rules characteristic of certain computations or computer operations.
 
 ---
 
@@ -29,9 +29,12 @@ Definition of "ALGORITHM":
 ---
 Everyday algorithm for coffee:
  - turn on gas;
- - boil needed about of water;
+ - boil needed amount of water;
  - add mounded coffee into a cup;
  - pour boiled water into a cup;
+ - sugar it for taste;
  - wait, till it cools down a little;
 Issues:
-- What 
+- What *"needed amount of water"* does mean?
+- What it mean for "sugar it for taste"?
+> 
