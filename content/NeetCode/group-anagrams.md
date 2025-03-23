@@ -41,4 +41,22 @@ Given an array of strings `strs`, group the anagrams together. You can return
 - `0 <= strs[i].length <= 100`
 - `strs[i]` consists of lowercase English letters.
 
+---
+## Starter
+```python
+class Solution(object):
+    def groupAnagrams(self, strs):
+        """
 
+        :type strs: List[str]
+        :rtype: List[List[str]]
+
+        """
+```
+
+---
+## Code
+
+```python
+
+```
