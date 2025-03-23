@@ -37,4 +37,4 @@ Everyday algorithm for coffee:
 Issues:
 - What *"needed amount of water"* does mean?
 - What it mean for "sugar it for taste"?
-> 
+This coffee recipe have a characteristics of an algorithm (rozumnego) but d
