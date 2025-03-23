@@ -12,6 +12,5 @@ def NWD(a, b):
         a, b = b, a % b
     return a
 
-print(NWD(10, 2))  # This will output 2
-	
+print(NWD(10, 2))  # This will output 2	
 ``` 

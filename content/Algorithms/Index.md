@@ -25,3 +25,8 @@ Definition of "ALGORITHM":
 ---
 
 [[GDC (NWD)]] - Euklides
+
+Everyday algorithm for coffee:
+ - turn on gas;
+ - boil needed about of water;
+ - add mounded 
