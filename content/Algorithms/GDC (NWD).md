@@ -1,5 +1,5 @@
 ---
-title: NWD
+title: GDC (NWD)
 draft: false
 tags:
   - basics
