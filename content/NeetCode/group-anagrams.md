@@ -58,17 +58,26 @@ class Solution(object):
 ## Code
 
 ```python
+from collections import defaultdict
 
+class Solution(object):
+    def groupAnagrams(self, strs):
+        anagrams = defaultdict(list)
+        for s in strs:
+            k = tuple(sorted(s))
+            anagrams[k].append(s)
+        return list(anagrams.values())
 ```
-%% 
+## First attempt
 1. First of all I need to initialize a list that will contain a solution
 2. Sort all elements of `strs`
 3. Make a `For` loop that will select each index of this list.
 	1. Sort each `string` i
 	2. With`For` loop check if an `string` i is similar to any other object using === 
 	3. Append string in solo list if there is none / Append string in multi list if there is multiple instances of said string
-4. Return list %%
-
-- Initialize a`defaultdict(list)` using `collections` module.
-- Use `For` loop to take out each `string` from `strs`.
-	- Save into a `k` key
+4. Return list
+## Second attempt
+1.  Initialize a`defaultdict(list)` using `collections` module.
+2. Use `For` loop to take out each `string` from `strs`.
+	- Save into a `k` key using `tuple(sorted(string))`
+	- Append each string at the `k` pos
