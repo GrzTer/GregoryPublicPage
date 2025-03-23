@@ -37,4 +37,4 @@ Everyday algorithm for coffee:
 Issues:
 - What *"needed amount of water"* does mean?
 - What it mean for "sugar it for taste"?
-This coffee recipe have a characteristics of an algorithm (rozumnego) but does not contain a precision needed for inputting it into a machine, so it could work under any circumstances e.g.: "Prepare "
+This coffee recipe have a characteristics of an algorithm (rozumnego) but does not contain a precision needed for inputting it into a machine, so it could work under any circumstances e.g.: "Prepare me a small coffee", How to define a condition that a coffee is "The coffee has brewed properly"
