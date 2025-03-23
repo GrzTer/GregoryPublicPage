@@ -12,10 +12,9 @@ tags:
   - programming
   - roadmap
 ---
-
 # Python Master Index
 
-This document provides a structured overview of the Python notes repository. It organizes topics, concepts, and resources in a systematic manner.
+This document provides a structured overview of the **Python** notes repository. It organizes topics, concepts, and resources in a systematic manner.
 
 ---
 
