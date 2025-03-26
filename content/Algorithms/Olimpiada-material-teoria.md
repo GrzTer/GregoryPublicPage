@@ -75,47 +75,47 @@ Zalecane materiały do nauki:
 
 ---
 
-1. **Algorytmy sortujące**
-   - **Bubble Sort**: Prosty algorytm sortowania polegający na wielokrotnym przechodzeniu przez listę i zamianie miejscami sąsiednich elementów, jeśli są w złej kolejności.
-   - **Quick Sort**: Algorytm sortowania typu "dziel i zwyciężaj", wybierający element zwany pivotem i dzielący listę na dwie części, sortując je rekurencyjnie.
-   - **Insertion Sort**: Sortuje listę poprzez iteracyjne wstawianie każdego elementu na odpowiednie miejsce w już posortowanej części listy.
-   - **Selection Sort**: Algorytm sortowania polegający na wielokrotnym wybieraniu najmniejszego elementu z nieposortowanej części listy i przenoszeniu go na początek.
-   - **Merge Sort**: Sortowanie polegające na dzieleniu listy na mniejsze podlisty, sortowaniu ich i scalaniu w jedną posortowaną listę.
+1. **Algorytmy sortujące**
+   - **Bubble Sort**: Prosty algorytm sortowania polegający na wielokrotnym przechodzeniu przez listę i zamianie miejscami sąsiednich elementów, jeśli są w złej kolejności.
+   - **Quick Sort**: Algorytm sortowania typu "dziel i zwyciężaj", wybierający element zwany pivotem i dzielący listę na dwie części, sortując je rekurencyjnie.
+   - **Insertion Sort**: Sortuje listę poprzez iteracyjne wstawianie każdego elementu na odpowiednie miejsce w już posortowanej części listy.
+   - **Selection Sort**: Algorytm sortowania polegający na wielokrotnym wybieraniu najmniejszego elementu z nieposortowanej części listy i przenoszeniu go na początek.
+   - **Merge Sort**: Sortowanie polegające na dzieleniu listy na mniejsze podlisty, sortowaniu ich i scalaniu w jedną posortowaną listę.
    - **Heap Sort**: Wykorzystuje strukturę kopca do efektywnego sortowania poprzez wielokrotne usuwanie największego elementu i odbudowywanie kopca.
 
-2. **Algorytmy grafowe**
-   - **Dijkstra**: Służy do znajdowania najkrótszych ścieżek w grafie z dodatnimi wagami krawędzi.
-   - **Bellman-Ford**: Algorytm do znajdowania najkrótszych ścieżek, który obsługuje grafy z ujemnymi wagami krawędzi.
-   - **Kruskal i Prim**: Algorytmy służące do znajdowania minimalnego drzewa rozpinającego w grafie.
-   - **Floyd-Warshall**: Algorytm obliczający najkrótsze ścieżki pomiędzy wszystkimi parami wierzchołków w grafie.
+1. **Algorytmy grafowe**
+   - **Dijkstra**: Służy do znajdowania najkrótszych ścieżek w grafie z dodatnimi wagami krawędzi.
+   - **Bellman-Ford**: Algorytm do znajdowania najkrótszych ścieżek, który obsługuje grafy z ujemnymi wagami krawędzi.
+   - **Kruskal i Prim**: Algorytmy służące do znajdowania minimalnego drzewa rozpinającego w grafie.
+   - **Floyd-Warshall**: Algorytm obliczający najkrótsze ścieżki pomiędzy wszystkimi parami wierzchołków w grafie.
 
-3. **Struktury danych**
-   - **Stos**: Struktura danych działająca na zasadzie LIFO (Last In, First Out), używana m.in. w implementacji rekurencji.
-   - **Kolejka**: Struktura danych działająca na zasadzie FIFO (First In, First Out), stosowana w algorytmach takich jak BFS.
-   - **Drzewo binarne**: Struktura danych składająca się z węzłów, gdzie każdy węzeł ma co najwyżej dwóch potomków, używana m.in. w wyszukiwaniach i sortowaniu.
-   - **Tablica haszująca**: Struktura danych umożliwiająca szybkie wyszukiwanie, dodawanie i usuwanie elementów poprzez funkcję haszującą.
-   - **Kopiec binarny**: Specjalne drzewo binarne, które spełnia warunek kopca, używane w implementacjach kolejek priorytetowych.
+1. **Struktury danych**
+   - **Stos**: Struktura danych działająca na zasadzie LIFO (Last In, First Out), używana m.in. w implementacji rekurencji.
+   - **Kolejka**: Struktura danych działająca na zasadzie FIFO (First In, First Out), stosowana w algorytmach takich jak BFS.
+   - **Drzewo binarne**: Struktura danych składająca się z węzłów, gdzie każdy węzeł ma co najwyżej dwóch potomków, używana m.in. w wyszukiwaniach i sortowaniu.
+   - **Tablica haszująca**: Struktura danych umożliwiająca szybkie wyszukiwanie, dodawanie i usuwanie elementów poprzez funkcję haszującą.
+   - **Kopiec binarny**: Specjalne drzewo binarne, które spełnia warunek kopca, używane w implementacjach kolejek priorytetowych.
 
-4. **Dynamiczne programowanie**
-   - Technika rozwiązywania problemów poprzez dzielenie ich na mniejsze podproblemy i przechowywanie wyników tych podproblemów, aby uniknąć ich wielokrotnego rozwiązywania.
-   - Przykłady zastosowań: problem plecakowy, problem najdłuższej wspólnej podsekwencji, obliczanie liczb Fibonacciego.
+1. **Dynamiczne programowanie**
+   - Technika rozwiązywania problemów poprzez dzielenie ich na mniejsze podproblemy i przechowywanie wyników tych podproblemów, aby uniknąć ich wielokrotnego rozwiązywania.
+   - Przykłady zastosowań: problem plecakowy, problem najdłuższej wspólnej podsekwencji, obliczanie liczb Fibonacciego.
 
-5. **Rekursja**
-   - Technika programowania, w której funkcja wywołuje sama siebie w celu rozwiązania mniejszej instancji tego samego problemu.
-   - Przykłady: obliczanie silni (n!), ciągu Fibonacciego, przeszukiwanie drzew i grafów.
+1. **Rekursja**
+   - Technika programowania, w której funkcja wywołuje sama siebie w celu rozwiązania mniejszej instancji tego samego problemu.
+   - Przykłady: obliczanie silni (n!), ciągu Fibonacciego, przeszukiwanie drzew i grafów.
 
-6. **Algorytmy zachłanne**
-   - Podejście polegające na podejmowaniu lokalnie optymalnych wyborów w nadziei na globalnie optymalne rozwiązanie.
-   - Przykłady: algorytmy znajdowania minimalnego drzewa rozpinającego (Kruskal, Prim), algorytm Dijkstry do znajdowania najkrótszej ścieżki.
+1. **Algorytmy zachłanne**
+   - Podejście polegające na podejmowaniu lokalnie optymalnych wyborów w nadziei na globalnie optymalne rozwiązanie.
+   - Przykłady: algorytmy znajdowania minimalnego drzewa rozpinającego (Kruskal, Prim), algorytm Dijkstry do znajdowania najkrótszej ścieżki.
 
-7. **Złożoność obliczeniowa**
-   - Analiza efektywności algorytmów pod względem zużycia zasobów, takich jak czas i pamięć.
-   - Notacja Big-O: O(n), O(n log n), O(n²) – opisuje, jak czas działania algorytmu rośnie wraz ze wzrostem wielkości danych wejściowych.
+1. **Złożoność obliczeniowa**
+   - Analiza efektywności algorytmów pod względem zużycia zasobów, takich jak czas i pamięć.
+   - Notacja Big-O: O(n), O(n log n), O(n²) – opisuje, jak czas działania algorytmu rośnie wraz ze wzrostem wielkości danych wejściowych.
 
-8. **Optymalizacja kodu**
-   - Proces modyfikacji kodu w celu poprawy jego wydajności, czytelności lub zużycia pamięci, bez zmiany jego funkcjonalności.
-   - Techniki: refaktoryzacja, eliminacja martwego kodu, inlining funkcji.
+1. **Optymalizacja kodu**
+   - Proces modyfikacji kodu w celu poprawy jego wydajności, czytelności lub zużycia pamięci, bez zmiany jego funkcjonalności.
+   - Techniki: refaktoryzacja, eliminacja martwego kodu, inlining funkcji.
 
-9. **Wzorce projektowe**
-   - Sprawdzone rozwiązania dla typowych problemów projektowych w oprogramowaniu.
+1. **Wzorce projektowe**
+   - Sprawdzone rozwiązania dla typowych problemów projektowych w oprogramowaniu.
    - Przykłady: Singleton (zapewnienie istnienia jednej instancji klasy), Factory 
