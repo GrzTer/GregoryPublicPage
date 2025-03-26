@@ -177,3 +177,51 @@ Zalecane materiały do nauki:
 
 ---
 
+### 1. **Algorytmy Sortowania**
+
+- **Quick Sort**: Algorytm sortowania oparty na metodzie dziel i zwyciężaj. Wybiera element zwany pivotelem i dzieli zbiór na dwie części: mniejszą i większą od pivota, a następnie rekurencyjnie sortuje te podzbiory.
+- **Merge Sort**: Algorytm sortowania oparty na podejściu dziel i zwyciężaj. Dzieli zbiór na mniejsze części, sortuje je, a następnie scala w jedną posortowaną całość.
+- **Heap Sort**: Algorytm sortowania oparty na strukturze kopca. Tworzy kopiec z danych, a następnie wielokrotnie usuwa największy element, przywracając kopiec po każdej operacji.
+
+### 2. **Algorytmy Grafowe**
+
+- **Algorytm Dijkstry**: Służy do znajdowania najkrótszych ścieżek w grafie o nieujemnych wagach krawędzi.
+- **Algorytm Bellmana-Forda**: Potrafi obsługiwać grafy z krawędziami o ujemnych wagach i wykrywać ujemne cykle.
+- **Algorytmy Kruskala i Prima**: Służą do znajdowania minimalnego drzewa rozpinającego w grafie. Kruskal dodaje krawędzie o najmniejszej wadze, unikając cykli, podczas gdy Prim zaczyna od jednego wierzchołka i rozrasta drzewo, dodając najtańsze krawędzie.
+- **A* (A-star)**: Algorytm wyszukiwania najkrótszej ścieżki, który wykorzystuje funkcję heurystyczną do oceny kosztu dotarcia do celu, łącząc koszt dotychczasowy z oszacowaniem kosztu pozostałej drogi.
+
+### 3. **Struktury Danych**
+
+- **Stos (Stack)**: Struktura danych działająca na zasadzie LIFO (Last In, First Out). Umożliwia dodawanie i usuwanie elementów z jednego końca.
+- **Kolejka (Queue)**: Struktura danych działająca na zasadzie FIFO (First In, First Out). Elementy są dodawane na końcu i usuwane z początku.
+- **Drzewa Binarne**: Struktura danych, w której każdy węzeł ma co najwyżej dwóch potomków. Umożliwiają efektywne operacje wyszukiwania, wstawiania i usuwania.
+- **Tablice Haszujące (Hash Tables)**: Struktura danych umożliwiająca szybkie wyszukiwanie, wstawianie i usuwanie elementów poprzez mapowanie kluczy na indeksy tablicy za pomocą funkcji haszującej.
+- **Kopiec (Heap)**: Struktura danych będąca specjalnym przypadkiem drzewa binarnego, spełniająca warunek kopca, gdzie dla każdego węzła wartość jest większa (lub mniejsza) od wartości jego potomków. Używana m.in. w algorytmie sortowania kopcowego oraz w implementacji kolejek priorytetowych.
+
+### 4. **Programowanie Dynamiczne**
+
+- Technika rozwiązywania problemów poprzez dzielenie ich na nakładające się podproblemy i zapisywanie wyników tych podproblemów w celu uniknięcia ich wielokrotnego rozwiązywania.
+- Przykładowe problemy:
+    - **Problem plecakowy**: Określenie, jakie przedmioty zabrać do plecaka, aby zmaksymalizować wartość przy ograniczonej pojemności.
+    - **Najdłuższa wspólna podsekwencja (LCS)**: Znalezienie najdłuższej sekwencji, która pojawia się w tej samej kolejności w obu ciągach.
+    - **Obliczanie liczb Fibonacciego**: Generowanie ciągu liczb, gdzie każda liczba jest sumą dwóch poprzednich.
+
+### 5. **Rekurencja**
+
+- Technika programowania, w której funkcja wywołuje sama siebie. Ważna jest znajomość przypadków brzegowych oraz zapewnienie, że każde wywołanie zbliża się do tych przypadków, aby uniknąć nieskończonej rekurencji.
+- Przykłady zastosowań:
+    - Obliczanie silni liczby.
+    - Obliczanie n-tej liczby Fibonacciego.
+    - Przeszukiwanie drzew i grafów (np. przeszukiwanie wszerz, przeszukiwanie w głąb).
+
+### 6. **Algorytmy Zachłanne**
+
+- Algorytmy podejmujące lokalnie optymalne decyzje w nadziei na globalnie optymalne rozwiązanie.
+- Przykładowe zastosowania:
+    - **Huffman Coding**: Algorytm kompresji danych, który przypisuje krótsze kody do bardziej prawdopodobnych symboli.
+    - **Problem wydawania reszty**: Dobór monet w taki sposób, aby wydać resztę przy użyciu jak najmniejszej liczby monet.
+
+### 7. **Analiza Złożoności Algorytmów**
+
+- Ocena efektywności algorytmu pod względem czasu wykonania i zużycia pamięci.
+- Notacja **Big-O**: Służy do opisywania górnej granicy złożoności algorytmu, skupiają
