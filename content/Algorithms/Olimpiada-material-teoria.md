@@ -179,28 +179,28 @@ Zalecane materiały do nauki:
 
 ### 1. **Algorytmy Sortowania**
 
-- **Quick Sort**: Algorytm sortowania oparty na metodzie dziel i zwyciężaj. Wybiera element zwany pivotelem i dzieli zbiór na dwie części: mniejszą i większą od pivota, a następnie rekurencyjnie sortuje te podzbiory.
-- **Merge Sort**: Algorytm sortowania oparty na podejściu dziel i zwyciężaj. Dzieli zbiór na mniejsze części, sortuje je, a następnie scala w jedną posortowaną całość.
-- **Heap Sort**: Algorytm sortowania oparty na strukturze kopca. Tworzy kopiec z danych, a następnie wielokrotnie usuwa największy element, przywracając kopiec po każdej operacji.
+- **Quick Sort**: Algorytm sortowania oparty na metodzie dziel i zwyciężaj. Wybiera element zwany pivotelem i dzieli zbiór na dwie części: mniejszą i większą od pivota, a następnie rekurencyjnie sortuje te podzbiory.
+- **Merge Sort**: Algorytm sortowania oparty na podejściu dziel i zwyciężaj. Dzieli zbiór na mniejsze części, sortuje je, a następnie scala w jedną posortowaną całość.
+- **Heap Sort**: Algorytm sortowania oparty na strukturze kopca. Tworzy kopiec z danych, a następnie wielokrotnie usuwa największy element, przywracając kopiec po każdej operacji.
 
 ### 2. **Algorytmy Grafowe**
 
-- **Algorytm Dijkstry**: Służy do znajdowania najkrótszych ścieżek w grafie o nieujemnych wagach krawędzi.
-- **Algorytm Bellmana-Forda**: Potrafi obsługiwać grafy z krawędziami o ujemnych wagach i wykrywać ujemne cykle.
-- **Algorytmy Kruskala i Prima**: Służą do znajdowania minimalnego drzewa rozpinającego w grafie. Kruskal dodaje krawędzie o najmniejszej wadze, unikając cykli, podczas gdy Prim zaczyna od jednego wierzchołka i rozrasta drzewo, dodając najtańsze krawędzie.
-- **A* (A-star)**: Algorytm wyszukiwania najkrótszej ścieżki, który wykorzystuje funkcję heurystyczną do oceny kosztu dotarcia do celu, łącząc koszt dotychczasowy z oszacowaniem kosztu pozostałej drogi.
+- **Algorytm Dijkstry**: Służy do znajdowania najkrótszych ścieżek w grafie o nieujemnych wagach krawędzi.
+- **Algorytm Bellmana-Forda**: Potrafi obsługiwać grafy z krawędziami o ujemnych wagach i wykrywać ujemne cykle.
+- **Algorytmy Kruskala i Prima**: Służą do znajdowania minimalnego drzewa rozpinającego w grafie. Kruskal dodaje krawędzie o najmniejszej wadze, unikając cykli, podczas gdy Prim zaczyna od jednego wierzchołka i rozrasta drzewo, dodając najtańsze krawędzie.
+- **A* (A-star)**: Algorytm wyszukiwania najkrótszej ścieżki, który wykorzystuje funkcję heurystyczną do oceny kosztu dotarcia do celu, łącząc koszt dotychczasowy z oszacowaniem kosztu pozostałej drogi.
 
 ### 3. **Struktury Danych**
 
-- **Stos (Stack)**: Struktura danych działająca na zasadzie LIFO (Last In, First Out). Umożliwia dodawanie i usuwanie elementów z jednego końca.
-- **Kolejka (Queue)**: Struktura danych działająca na zasadzie FIFO (First In, First Out). Elementy są dodawane na końcu i usuwane z początku.
-- **Drzewa Binarne**: Struktura danych, w której każdy węzeł ma co najwyżej dwóch potomków. Umożliwiają efektywne operacje wyszukiwania, wstawiania i usuwania.
-- **Tablice Haszujące (Hash Tables)**: Struktura danych umożliwiająca szybkie wyszukiwanie, wstawianie i usuwanie elementów poprzez mapowanie kluczy na indeksy tablicy za pomocą funkcji haszującej.
-- **Kopiec (Heap)**: Struktura danych będąca specjalnym przypadkiem drzewa binarnego, spełniająca warunek kopca, gdzie dla każdego węzła wartość jest większa (lub mniejsza) od wartości jego potomków. Używana m.in. w algorytmie sortowania kopcowego oraz w implementacji kolejek priorytetowych.
+- **Stos (Stack)**: Struktura danych działająca na zasadzie LIFO (Last In, First Out). Umożliwia dodawanie i usuwanie elementów z jednego końca.
+- **Kolejka (Queue)**: Struktura danych działająca na zasadzie FIFO (First In, First Out). Elementy są dodawane na końcu i usuwane z początku.
+- **Drzewa Binarne**: Struktura danych, w której każdy węzeł ma co najwyżej dwóch potomków. Umożliwiają efektywne operacje wyszukiwania, wstawiania i usuwania.
+- **Tablice Haszujące (Hash Tables)**: Struktura danych umożliwiająca szybkie wyszukiwanie, wstawianie i usuwanie elementów poprzez mapowanie kluczy na indeksy tablicy za pomocą funkcji haszującej.
+- **Kopiec (Heap)**: Struktura danych będąca specjalnym przypadkiem drzewa binarnego, spełniająca warunek kopca, gdzie dla każdego węzła wartość jest większa (lub mniejsza) od wartości jego potomków. Używana m.in. w algorytmie sortowania kopcowego oraz w implementacji kolejek priorytetowych.
 
 ### 4. **Programowanie Dynamiczne**
 
-- Technika rozwiązywania problemów poprzez dzielenie ich na nakładające się podproblemy i zapisywanie wyników tych podproblemów w celu uniknięcia ich wielokrotnego rozwiązywania.
+- Technika rozwiązywania problemów poprzez dzielenie ich na nakładające się podproblemy i zapisywanie wyników tych podproblemów w celu uniknięcia ich wielokrotnego rozwiązywania.
 - Przykładowe problemy:
     - **Problem plecakowy**: Określenie, jakie przedmioty zabrać do plecaka, aby zmaksymalizować wartość przy ograniczonej pojemności.
     - **Najdłuższa wspólna podsekwencja (LCS)**: Znalezienie najdłuższej sekwencji, która pojawia się w tej samej kolejności w obu ciągach.
@@ -236,44 +236,42 @@ Oto rozszerzony i szczegółowy zbiór pojęć oraz algorytmów, które warto op
     
 - **Sortowanie przez wstawianie (Insertion Sort)**: Algorytm działający poprzez wstawianie kolejnych elementów w odpowiednie miejsce w już posortowanej części tablicy. Złożoność czasowa: O(n²).
     
-- **Sortowanie przez wybór (Selection Sort)**: Algorytm polegający na wielokrotnym wybieraniu najmniejszego (lub największego) elementu z nieposortowanej części tablicy i umieszczaniu go na początku (lub końcu) posortowanej części. Złożoność czasowa: O(n²).
+- **Sortowanie przez wybór (Selection Sort)**: Algorytm polegający na wielokrotnym wybieraniu najmniejszego (lub największego) elementu z nieposortowanej części tablicy i umieszczaniu go na początku (lub końcu) posortowanej części. Złożoność czasowa: O(n²).
     
-- **Sortowanie przez kopcowanie (Heap Sort)**: Algorytm wykorzystujący strukturę danych zwaną kopcem (heaps), aby efektywnie sortować elementy. Składa się z dwóch głównych etapów: budowy kopca oraz sortowania poprzez wielokrotne usuwanie największego elementu z kopca i umieszczanie go na końcu tablicy. Złożoność czasowa: O(n log n), pamięciowa: O(1). citeturn0search0
+- **Sortowanie przez kopcowanie (Heap Sort)**: Algorytm wykorzystujący strukturę danych zwaną kopcem (heaps), aby efektywnie sortować elementy. Składa się z dwóch głównych etapów: budowy kopca oraz sortowania poprzez wielokrotne usuwanie największego elementu z kopca i umieszczanie go na końcu tablicy. Złożoność czasowa: O(n log n), pamięciowa: O(1).
     
-- **Sortowanie szybkie (Quick Sort)**: Algorytm oparty na metodzie dziel i zwyciężaj, polegający na wyborze tzw. pivota i podziale tablicy na dwie części: mniejsze i większe od pivota, a następnie rekurencyjnym sortowaniu tych części. Złożoność czasowa: średnio O(n log n), w najgorszym przypadku O(n²).
+- **Sortowanie szybkie (Quick Sort)**: Algorytm oparty na metodzie dziel i zwyciężaj, polegający na wyborze tzw. pivota i podziale tablicy na dwie części: mniejsze i większe od pivota, a następnie rekurencyjnym sortowaniu tych części. Złożoność czasowa: średnio O(n log n), w najgorszym przypadku O(n²).
     
-- **Sortowanie przez scalanie (Merge Sort)**: Algorytm dzielący tablicę na coraz mniejsze podtablice, aż do pojedynczych elementów, a następnie scalający je w sposób uporządkowany. Złożoność czasowa: O(n log n).
+- **Sortowanie przez scalanie (Merge Sort)**: Algorytm dzielący tablicę na coraz mniejsze podtablice, aż do pojedynczych elementów, a następnie scalający je w sposób uporządkowany. Złożoność czasowa: O(n log n).
     
-- **Sortowanie szybkie introspektywne (Introsort)**: Algorytm będący hybrydą sortowania szybkiego i sortowania przez kopcowanie, który adaptuje się w zależności od struktury danych, aby zapewnić optymalną wydajność.
+- **Sortowanie szybkie introspektywne (Introsort)**: Algorytm będący hybrydą sortowania szybkiego i sortowania przez kopcowanie, który adaptuje się w zależności od struktury danych, aby zapewnić optymalną wydajność.
     
-- **Sortowanie przez zliczanie (Counting Sort)**: Algorytm nieporównawczy, który zlicza wystąpienia poszczególnych elementów, a następnie na tej podstawie tworzy posortowaną tablicę. Złożoność czasowa: O(n+k), gdzie k to zakres wartości.
+- **Sortowanie przez zliczanie (Counting Sort)**: Algorytm nieporównawczy, który zlicza wystąpienia poszczególnych elementów, a następnie na tej podstawie tworzy posortowaną tablicę. Złożoność czasowa: O(n+k), gdzie k to zakres wartości.
     
-- **Sortowanie pozycyjne (Radix Sort)**: Algorytm sortujący liczby (lub ciągi znaków) poprzez sortowanie ich cyfr (lub znaków) na kolejnych pozycjach, zaczynając od najmniej znaczącej. Złożoność czasowa: O(nk), gdzie k to liczba cyfr (lub długość ciągu).
+- **Sortowanie pozycyjne (Radix Sort)**: Algorytm sortujący liczby (lub ciągi znaków) poprzez sortowanie ich cyfr (lub znaków) na kolejnych pozycjach, zaczynając od najmniej znaczącej. Złożoność czasowa: O(nk), gdzie k to liczba cyfr (lub długość ciągu).
     
 
 ### 2. **Algorytmy grafowe**
 
 - **Algorytm Dijkstry**: Służy do znajdowania najkrótszych ścieżek w grafie z nieujemnymi wagami krawędzi. Złożoność czasowa: O((V + E) log V), gdzie V to liczba wierzchołków, a E to liczba krawędzi.
     
-- **Algorytm Bellmana-Forda**: Może obsługiwać grafy z krawędziami o ujemnych wagach i wykrywać cykle o ujemnej wadze. Złożoność czasowa: O(VE).
+- **Algorytm Bellmana-Forda**: Może obsługiwać grafy z krawędziami o ujemnych wagach i wykrywać cykle o ujemnej wadze. Złożoność czasowa: O(VE).
     
-- **Algorytm Floyda-Warshalla**: Służy do znajdowania najkrótszych ścieżek pomiędzy wszystkimi parami wierzchołków w grafie. Złożoność czasowa: O(V³).
+- **Algorytm Floyda-Warshalla**: Służy do znajdowania najkrótszych ścieżek pomiędzy wszystkimi parami wierzchołków w grafie. Złożoność czasowa: O(V³).
     
-- **Algorytm Kruskala**: Służy do znajdowania minimalnego drzewa rozpinającego w grafie ważonym. Złożoność czasowa: O(E log E).
+- **Algorytm Kruskala**: Służy do znajdowania minimalnego drzewa rozpinającego w grafie ważonym. Złożoność czasowa: O(E log E).
     
-- **Algorytm Prima**: Inny algorytm do znajdowania minimalnego drzewa rozpinającego, działający na zasadzie rozszerzania drzewa o najtańsze dostępne krawędzie. Złożoność czasowa: O(E log V).
+- **Algorytm Prima**: Inny algorytm do znajdowania minimalnego drzewa rozpinającego, działający na zasadzie rozszerzania drzewa o najtańsze dostępne krawędzie. Złożoność czasowa: O(E log V).
     
-- **Algorytm A***: Służy do znajdowania najkrótszej ścieżki w grafie, wykorzystując heurystykę do przyspieszenia procesu wyszukiwania.
+- **Algorytm A***: Służy do znajdowania najkrótszej ścieżki w grafie, wykorzystując heurystykę do przyspieszenia procesu wyszukiwania.
     
 
 ### 3. **Struktury danych**
 
-- **Stos (Stack)**: Struktura danych działająca na zasadzie LIFO (Last In, First Out), używana m.in. w implementacji rekurencji i algorytmów przeszukiwania grafów.
+- **Stos (Stack)**: Struktura danych działająca na zasadzie LIFO (Last In, First Out), używana m.in. w implementacji rekurencji i algorytmów przeszukiwania grafów.
     
-- **Kolejka (Queue)**: Struktura danych działająca na zasadzie FIFO (First In, First Out), stosowana m.in. w algorytmach przeszukiwania grafów, takich jak BFS.
+- **Kolejka (Queue)**: Struktura danych działająca na zasadzie FIFO (First In, First Out), stosowana m.in. w algorytmach przeszukiwania grafów, takich jak BFS.
     
-- **Drzewo BST (Binary Search Tree)**: Drzewo binarne, w którym dla każdego węzła wartość w lewym poddrzewie jest mniejsza, a w prawym większa od wartości w tym węźle. Umożliwia efektywne operacje wyszukiwania, wstawiania i usuwania.
+- **Drzewo BST (Binary Search Tree)**: Drzewo binarne, w którym dla każdego węzła wartość w lewym poddrzewie jest mniejsza, a w prawym większa od wartości w tym węźle. Umożliwia efektywne operacje wyszukiwania, wstawiania i usuwania.
     
-- **Tablica haszująca (Hash Table)**: Struktura danych umożliwiająca szybkie operacje wstawiania, usuwania i wyszukiwania elementów poprzez wykorzystanie funkcji haszującej.
-    
-- **
+- **Tablica haszująca (Hash Table)**: Struktura danych umożliwiająca szybkie operacje wstawiania, usuwania i wyszukiwania elementów poprzez wykorzystanie funkcji haszującej.
