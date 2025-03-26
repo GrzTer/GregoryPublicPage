@@ -119,3 +119,61 @@ Zalecane materiały do nauki:
 1. **Wzorce projektowe**
    - Sprawdzone rozwiązania dla typowych problemów projektowych w oprogramowaniu.
    - Przykłady: Singleton (zapewnienie istnienia jednej instancji klasy), Factory 
+
+---
+
+### 1. **Algorytmy sortujące**
+
+- **Quick Sort**: Zrozumienie złożoności czasowej w najlepszym, średnim i najgorszym przypadku oraz optymalizacji.
+- **Merge Sort**: Nauka zasadności podejścia "dziel i zwyciężaj", złożoności czasowej oraz przypadków użycia.
+- **Heap Sort**: Skupienie na wykorzystaniu kopców w algorytmach sortujących oraz ich zastosowanie w kolejkach priorytetowych.
+
+### 2. **Algorytmy grafowe**
+
+- **Algorytm Dijkstry**: Zastosowanie algorytmu do znajdowania najkrótszej ścieżki w grafach z dodatnimi wagami krawędzi.
+- **Bellman-Ford**: Zrozumienie, jak ten algorytm radzi sobie z grafami zawierającymi ujemne wagi krawędzi.
+- **Algorytmy Kruskala i Prima**: Wykorzystywane do znajdowania minimalnego drzewa rozpinającego w grafie. Należy poznać oba algorytmy i przypadki ich zastosowań.
+
+### 3. **Struktury danych**
+
+- **Stos**: Wykorzystywany do operacji LIFO (Last In, First Out), rekurencji oraz backtrackingu.
+- **Kolejka**: Działa na zasadzie FIFO (First In, First Out), używana w algorytmach takich jak BFS (przeszukiwanie wszerz).
+- **Drzewo binarne**: Struktura danych używana do efektywnego wyszukiwania, wstawiania i usuwania elementów (np. BST – Binary Search Tree).
+- **Tablica haszująca**: Umożliwia wyszukiwanie, dodawanie i usuwanie elementów w czasie średnim O(1).
+- **Kopiec binarny**: Struktura wykorzystywana w implementacjach kolejek priorytetowych.
+
+### 4. **Dynamiczne programowanie**
+
+- Nauka rozwiązywania problemów, które mogą być rozbite na mniejsze podproblemy, które są rozwiązywane i przechowywane dla ponownego użycia.
+- Przykłady problemów: problem plecakowy, najdłuższa wspólna podsekwencja, obliczanie liczb Fibonacciego.
+
+### 5. **Rekursja**
+
+- Zrozumienie, jak działa rekursja jest kluczowe do rozwiązywania problemów rekurencyjnych, takich jak obliczanie silni, ciąg Fibonacciego, czy przeszukiwanie drzew i grafów.
+
+### 6. **Algorytmy zachłanne**
+
+- **Algorytmy Kruskala i Prima**: Służą do znajdowania minimalnego drzewa rozpinającego.
+- **Algorytm Dijkstry**: Używany do znajdowania najkrótszej ścieżki w grafie.
+- **Kodowanie Huffmana**: Wykorzystywane do efektywnej kompresji danych.
+
+### 7. **Analiza złożoności**
+
+- Opanowanie notacji Big-O i analiza złożoności czasowej oraz pamięciowej algorytmów.
+- Zrozumienie, jak złożoność algorytmu wpływa na jego wydajność w zależności od rozmiaru danych wejściowych.
+
+### 8. **Optymalizacja kodu**
+
+- Nauka technik takich jak **Dead Code Elimination** oraz **Inlining**.
+- Refaktoryzacja kodu, mająca na celu poprawienie wydajności bez zmiany jego zewnętrznego zachowania.
+
+### 9. **Wzorce projektowe**
+
+- Zapoznanie się z popularnymi wzorcami projektowymi, takimi jak **Singleton**, **Factory**, **Observer**.
+
+### 10. **Zarządzanie pamięcią**
+
+- Zrozumienie **Garbage Collection** oraz **Manual Memory Management**, szczególnie w językach takich jak C/C++.
+
+---
+
