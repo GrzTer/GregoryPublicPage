@@ -208,7 +208,7 @@ Zalecane materiały do nauki:
 
 ### 5. **Rekurencja**
 
-- Technika programowania, w której funkcja wywołuje sama siebie. Ważna jest znajomość przypadków brzegowych oraz zapewnienie, że każde wywołanie zbliża się do tych przypadków, aby uniknąć nieskończonej rekurencji.
+- Technika programowania, w której funkcja wywołuje sama siebie. Ważna jest znajomość przypadków brzegowych oraz zapewnienie, że każde wywołanie zbliża się do tych przypadków, aby uniknąć nieskończonej rekurencji.
 - Przykłady zastosowań:
     - Obliczanie silni liczby.
     - Obliczanie n-tej liczby Fibonacciego.
@@ -216,12 +216,64 @@ Zalecane materiały do nauki:
 
 ### 6. **Algorytmy Zachłanne**
 
-- Algorytmy podejmujące lokalnie optymalne decyzje w nadziei na globalnie optymalne rozwiązanie.
+- Algorytmy podejmujące lokalnie optymalne decyzje w nadziei na globalnie optymalne rozwiązanie.
 - Przykładowe zastosowania:
     - **Huffman Coding**: Algorytm kompresji danych, który przypisuje krótsze kody do bardziej prawdopodobnych symboli.
     - **Problem wydawania reszty**: Dobór monet w taki sposób, aby wydać resztę przy użyciu jak najmniejszej liczby monet.
 
 ### 7. **Analiza Złożoności Algorytmów**
 
-- Ocena efektywności algorytmu pod względem czasu wykonania i zużycia pamięci.
+- Ocena efektywności algorytmu pod względem czasu wykonania i zużycia pamięci.
 - Notacja **Big-O**: Służy do opisywania górnej granicy złożoności algorytmu, skupiają
+
+---
+
+Oto rozszerzony i szczegółowy zbiór pojęć oraz algorytmów, które warto opanować w kontekście olimpiady PZSWiR:
+
+### 1. **Algorytmy sortowania**
+
+- **Sortowanie bąbelkowe (Bubble Sort)**: Prosty algorytm polegający na wielokrotnym porównywaniu i ewentualnej zamianie sąsiednich elementów w tablicy. Złożoność czasowa: O(n²).
+    
+- **Sortowanie przez wstawianie (Insertion Sort)**: Algorytm działający poprzez wstawianie kolejnych elementów w odpowiednie miejsce w już posortowanej części tablicy. Złożoność czasowa: O(n²).
+    
+- **Sortowanie przez wybór (Selection Sort)**: Algorytm polegający na wielokrotnym wybieraniu najmniejszego (lub największego) elementu z nieposortowanej części tablicy i umieszczaniu go na początku (lub końcu) posortowanej części. Złożoność czasowa: O(n²).
+    
+- **Sortowanie przez kopcowanie (Heap Sort)**: Algorytm wykorzystujący strukturę danych zwaną kopcem (heaps), aby efektywnie sortować elementy. Składa się z dwóch głównych etapów: budowy kopca oraz sortowania poprzez wielokrotne usuwanie największego elementu z kopca i umieszczanie go na końcu tablicy. Złożoność czasowa: O(n log n), pamięciowa: O(1). citeturn0search0
+    
+- **Sortowanie szybkie (Quick Sort)**: Algorytm oparty na metodzie dziel i zwyciężaj, polegający na wyborze tzw. pivota i podziale tablicy na dwie części: mniejsze i większe od pivota, a następnie rekurencyjnym sortowaniu tych części. Złożoność czasowa: średnio O(n log n), w najgorszym przypadku O(n²).
+    
+- **Sortowanie przez scalanie (Merge Sort)**: Algorytm dzielący tablicę na coraz mniejsze podtablice, aż do pojedynczych elementów, a następnie scalający je w sposób uporządkowany. Złożoność czasowa: O(n log n).
+    
+- **Sortowanie szybkie introspektywne (Introsort)**: Algorytm będący hybrydą sortowania szybkiego i sortowania przez kopcowanie, który adaptuje się w zależności od struktury danych, aby zapewnić optymalną wydajność.
+    
+- **Sortowanie przez zliczanie (Counting Sort)**: Algorytm nieporównawczy, który zlicza wystąpienia poszczególnych elementów, a następnie na tej podstawie tworzy posortowaną tablicę. Złożoność czasowa: O(n+k), gdzie k to zakres wartości.
+    
+- **Sortowanie pozycyjne (Radix Sort)**: Algorytm sortujący liczby (lub ciągi znaków) poprzez sortowanie ich cyfr (lub znaków) na kolejnych pozycjach, zaczynając od najmniej znaczącej. Złożoność czasowa: O(nk), gdzie k to liczba cyfr (lub długość ciągu).
+    
+
+### 2. **Algorytmy grafowe**
+
+- **Algorytm Dijkstry**: Służy do znajdowania najkrótszych ścieżek w grafie z nieujemnymi wagami krawędzi. Złożoność czasowa: O((V + E) log V), gdzie V to liczba wierzchołków, a E to liczba krawędzi.
+    
+- **Algorytm Bellmana-Forda**: Może obsługiwać grafy z krawędziami o ujemnych wagach i wykrywać cykle o ujemnej wadze. Złożoność czasowa: O(VE).
+    
+- **Algorytm Floyda-Warshalla**: Służy do znajdowania najkrótszych ścieżek pomiędzy wszystkimi parami wierzchołków w grafie. Złożoność czasowa: O(V³).
+    
+- **Algorytm Kruskala**: Służy do znajdowania minimalnego drzewa rozpinającego w grafie ważonym. Złożoność czasowa: O(E log E).
+    
+- **Algorytm Prima**: Inny algorytm do znajdowania minimalnego drzewa rozpinającego, działający na zasadzie rozszerzania drzewa o najtańsze dostępne krawędzie. Złożoność czasowa: O(E log V).
+    
+- **Algorytm A***: Służy do znajdowania najkrótszej ścieżki w grafie, wykorzystując heurystykę do przyspieszenia procesu wyszukiwania.
+    
+
+### 3. **Struktury danych**
+
+- **Stos (Stack)**: Struktura danych działająca na zasadzie LIFO (Last In, First Out), używana m.in. w implementacji rekurencji i algorytmów przeszukiwania grafów.
+    
+- **Kolejka (Queue)**: Struktura danych działająca na zasadzie FIFO (First In, First Out), stosowana m.in. w algorytmach przeszukiwania grafów, takich jak BFS.
+    
+- **Drzewo BST (Binary Search Tree)**: Drzewo binarne, w którym dla każdego węzła wartość w lewym poddrzewie jest mniejsza, a w prawym większa od wartości w tym węźle. Umożliwia efektywne operacje wyszukiwania, wstawiania i usuwania.
+    
+- **Tablica haszująca (Hash Table)**: Struktura danych umożliwiająca szybkie operacje wstawiania, usuwania i wyszukiwania elementów poprzez wykorzystanie funkcji haszującej.
+    
+- **
