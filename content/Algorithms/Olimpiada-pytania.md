@@ -19,3 +19,11 @@
 17. **Czym są struktury danych i jakie są podstawowe rodzaje?**
 18. **Co to jest analiza danych i jakie techniki są stosowane w tym procesie?**
 19. **Wyjaśnij różnicę między językami wysokiego a niskiego poziomu.**
+
+Sprawdź regulamin i sporządź bazę przykładowych pytań na jego podstawie, ma ona przygotować mnie na Zawody III stopnia z bloku Programistycznego
+
+Przygotuj zadania przygotowujące mnie na Zawody III stopnia:
+
+- Sporządź 20 zadań przykładowych do Etapu I Zawodów III stopnia
+
+- Podaj odpowiedzi do tych 20 zadań
