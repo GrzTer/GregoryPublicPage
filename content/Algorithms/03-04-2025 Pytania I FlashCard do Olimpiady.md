@@ -350,7 +350,7 @@ def count_words(text):
 
 ---
 
-**Flashcard 20:**
+### **Flashcard 20:**
 
 - **Pytanie:** Wyjaśnij, czym jest dynamiczne programowanie i podaj przykład problemu, który można rozwiązać tą metodą.
     
@@ -362,7 +362,6 @@ def count_words(text):
 >Sprawdź regulamin i sporządź bazę przykładowych pytań na jego podstawie, ma ona przygotować mnie na Zawody III stopnia z bloku Programistycznego
 >
 Przygotuj zadania przygotowujące mnie na Zawody III stopnia:
->- Sporządź 20 zadań przykładowych do Etapu I Zawodów III stopnia
-  >  
->- Podaj odpowiedzi do tych 20 zadań
->- Sporządź flashcard 'y
+> - Sporządź 20 zadań przykładowych do Etapu I Zawodów III stopnia
+> - Podaj odpowiedzi do tych 20 zadań
+> - Sporządź flashcard 'y
