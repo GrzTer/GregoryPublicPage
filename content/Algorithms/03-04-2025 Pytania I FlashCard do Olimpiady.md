@@ -336,7 +336,7 @@ def gcd(a, b):
 
 ---
 
-**Flashcard 19:**
+### **Flashcard 19:**
 
 - **Pytanie:** Napisz funkcję w Pythonie, która zwraca liczbę słów w podanym tekście.
     
