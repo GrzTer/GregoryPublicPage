@@ -3,7 +3,7 @@ Zgodnie z regulaminem Olimpiady Innowacji Technicznych w Telekomunikacji i Infor
 Na podstawie tych informacji, sporządziłem przykładowe pytania, które mogą pojawić się na tym etapie. Oto 20 przykładowych zadań:
 
 1. **Zadanie 1:** Co to jest algorytm sortowania bąbelkowego i jak działa? Podaj przykład implementacji w Pythonie. 
-    - Prosty algorytm sortowania, polega na zasadzie wielokrotnego przechodzenia przez listę elementów, porównania sąsied
+    - Prosty algorytm sortowania, polega na zasadzie wielokrotnego przechodzenia przez listę elementów, porównania sąsiednich par i zamiany ich miejscami, jeżeli są nieprawidłowo ustawione.
 2. **Zadanie 2:** Co to jest algorytm wyszukiwania binarnego? Wyjaśnij, jak działa i podaj jego czas złożoności.
     
 3. **Zadanie 3:** Napisz funkcję w Pythonie, która oblicza silnię liczby n.
