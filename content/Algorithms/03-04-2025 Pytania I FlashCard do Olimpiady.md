@@ -172,7 +172,7 @@ def gcd(a, b):
 
 **Flashcard 8:**
 
-- **Pytanie:** Jakie są główne różnice między językiem C++ a Pythonem? Podaj przykłady użycia zmiennych i funkcji w obu językach.
+- **Pytanie:** Jakie są główne różnice między językiem C++ a Python'em? Podaj przykłady użycia zmiennych i funkcji w obu językach.
     
 - **Odpowiedź:** C++ jest językiem statycznie typowanym, a Python dynamicznie typowanym. W C++ zmienne muszą mieć określony typ, w Pythonie typ jest ustalany w trakcie działania programu.
     
