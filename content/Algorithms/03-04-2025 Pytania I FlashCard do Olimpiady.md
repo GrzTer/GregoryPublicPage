@@ -4,43 +4,62 @@ Na podstawie tych informacji, sporządziłem przykładowe pytania, które mogą 
 
 1. **Zadanie 1:** Co to jest algorytm sortowania bąbelkowego i jak działa? Podaj przykład implementacji w Pythonie. 
     - Prosty algorytm sortowania, polega na zasadzie wielokrotnego przechodzenia przez listę elementów, porównania sąsiednich par i zamiany ich miejscami, jeżeli są nieprawidłowo ustawione.
-2. **Zadanie 2:** Co to jest algorytm wyszukiwania binarnego? Wyjaśnij, jak działa i podaj jego czas złożoności.
+```python
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        # Flaga informująca, czy dokonano zamiany
+        swapped = False
+        for j in range(0, n-i-1):
+            if arr[j] > arr[j+1]:
+                # Zamiana elementów
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+                swapped = True
+        # Jeśli w danym przebiegu nie dokonano zamiany, lista jest już posortowana
+        if not swapped:
+            break
+    return arr
+lista = [64, 34, 25, 12, 22, 11, 90]
+posortowana_lista = bubble_sort(lista)
+print("Posortowana lista:", posortowana_lista)
+```
+1. **Zadanie 2:** Co to jest algorytm wyszukiwania binarnego? Wyjaśnij, jak działa i podaj jego czas złożoności.
     
-3. **Zadanie 3:** Napisz funkcję w Pythonie, która oblicza silnię liczby n.
+2. **Zadanie 3:** Napisz funkcję w Pythonie, która oblicza silnię liczby n.
     
-4. **Zadanie 4:** Co to jest drzewo binarne i jak wygląda struktura danych drzewa w C++?
+3. **Zadanie 4:** Co to jest drzewo binarne i jak wygląda struktura danych drzewa w C++?
     
-5. **Zadanie 5:** W jaki sposób zaimplementowałbyś algorytm Dijkstry w języku Python? Podaj przykład użycia.
+4. **Zadanie 5:** W jaki sposób zaimplementowałbyś algorytm Dijkstry w języku Python? Podaj przykład użycia.
     
-6. **Zadanie 6:** Wyjaśnij różnicę między typem danych `list` a `tuple` w Pythonie.
+5. **Zadanie 6:** Wyjaśnij różnicę między typem danych `list` a `tuple` w Pythonie.
     
-7. **Zadanie 7:** Zaimplementuj algorytm do obliczania najmniejszego wspólnego dzielnika dwóch liczb.
+6. **Zadanie 7:** Zaimplementuj algorytm do obliczania najmniejszego wspólnego dzielnika dwóch liczb.
     
-8. **Zadanie 8:** Jakie są główne różnice między językiem C++ a Pythonem? Podaj przykłady użycia zmiennych i funkcji w obu językach.
+7. **Zadanie 8:** Jakie są główne różnice między językiem C++ a Pythonem? Podaj przykłady użycia zmiennych i funkcji w obu językach.
     
-9. **Zadanie 9:** Napisz funkcję w języku Python, która odwraca ciąg znaków.
+8. **Zadanie 9:** Napisz funkcję w języku Python, która odwraca ciąg znaków.
     
-10. **Zadanie 10:** Co to jest hash map w C++? Podaj przykład użycia.
+9. **Zadanie 10:** Co to jest hash map w C++? Podaj przykład użycia.
     
-11. **Zadanie 11:** Jakie są zalety i wady stosowania struktur danych typu `linked list` w porównaniu do `array`?
+10. **Zadanie 11:** Jakie są zalety i wady stosowania struktur danych typu `linked list` w porównaniu do `array`?
     
-12. **Zadanie 12:** Napisz funkcję w Pythonie, która liczy, ile razy dany znak występuje w ciągu tekstowym.
+11. **Zadanie 12:** Napisz funkcję w Pythonie, która liczy, ile razy dany znak występuje w ciągu tekstowym.
     
-13. **Zadanie 13:** Jakie są główne różnice między algorytmem BFS (Breadth-First Search) a DFS (Depth-First Search)? Podaj przykład użycia obu algorytmów.
+12. **Zadanie 13:** Jakie są główne różnice między algorytmem BFS (Breadth-First Search) a DFS (Depth-First Search)? Podaj przykład użycia obu algorytmów.
     
-14. **Zadanie 14:** Co to jest rekurencja? Podaj przykład funkcji rekurencyjnej w języku Python.
+13. **Zadanie 14:** Co to jest rekurencja? Podaj przykład funkcji rekurencyjnej w języku Python.
     
-15. **Zadanie 15:** Wyjaśnij różnicę między językiem programowania C a C++.
+14. **Zadanie 15:** Wyjaśnij różnicę między językiem programowania C a C++.
     
-16. **Zadanie 16:** Jakie struktury danych można zastosować w problemie znajdowania najkrótszej ścieżki w grafie?
+15. **Zadanie 16:** Jakie struktury danych można zastosować w problemie znajdowania najkrótszej ścieżki w grafie?
     
-17. **Zadanie 17:** Zaimplementuj w Pythonie algorytm do obliczania największego wspólnego dzielnika dwóch liczb przy użyciu algorytmu Euklidesa.
+16. **Zadanie 17:** Zaimplementuj w Pythonie algorytm do obliczania największego wspólnego dzielnika dwóch liczb przy użyciu algorytmu Euklidesa.
     
-18. **Zadanie 18:** Jakie są zalety stosowania algorytmów zachłannych? Podaj przykład zastosowania.
+17. **Zadanie 18:** Jakie są zalety stosowania algorytmów zachłannych? Podaj przykład zastosowania.
     
-19. **Zadanie 19:** Napisz funkcję w Pythonie, która zwraca liczbę słów w podanym tekście.
+18. **Zadanie 19:** Napisz funkcję w Pythonie, która zwraca liczbę słów w podanym tekście.
     
-20. **Zadanie 20:** Wyjaśnij, czym jest dynamiczne programowanie i podaj przykład problemu, który można rozwiązać tą metodą.
+19. **Zadanie 20:** Wyjaśnij, czym jest dynamiczne programowanie i podaj przykład problemu, który można rozwiązać tą metodą.
     
 
 ---
