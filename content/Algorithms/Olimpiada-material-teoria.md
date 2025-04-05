@@ -81,7 +81,7 @@ Zalecane materiały do nauki:
    - **Insertion Sort**: Sortuje listę poprzez iteracyjne wstawianie każdego elementu na odpowiednie miejsce w już posortowanej części listy.
    - **Selection Sort**: Algorytm sortowania polegający na wielokrotnym wybieraniu najmniejszego elementu z nieposortowanej części listy i przenoszeniu go na początek.
    - **Merge Sort**: Sortowanie polegające na dzieleniu listy na mniejsze podlisty, sortowaniu ich i scalaniu w jedną posortowaną listę.
-   - **Heap Sort**: Wykorzystuje strukturę kopca do efektywnego sortowania poprzez wielokrotne usuwanie największego elementu i odbudowywanie kopca.
+   - **Heap Sort**: Wykorzystuje strukturę kopca do efektywnego sortowania poprzez wielokrotne usuwanie największego elementu i odbudowywanie kopca.
 
 1. **Algorytmy grafowe**
    - **Dijkstra**: Służy do znajdowania najkrótszych ścieżek w grafie z dodatnimi wagami krawędzi.
